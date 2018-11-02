@@ -42,11 +42,6 @@ for item in l1:
 l3 = l3[0:11]
 l3_1 = l3_1[0:11]
 
-
-
-
-
-
 l_numbers = [] # lista för latituder
 l_numbers2 = [] # lista för longituder
 
@@ -63,12 +58,10 @@ for item in l1:
         elif l.isnumeric():
             number += l
 
-
     num1 = number.split("|")
 
     l_numbers.append(num1[0])
     l_numbers2.append(num1[1:])
-
 
 l_numbers = l_numbers[0:11]
 l_numbers2 = l_numbers2[0:11]
@@ -78,8 +71,6 @@ l_numbers3 = []
 for item in l_numbers2:
     for letter in item:
         l_numbers3.append(letter)
-
-
 
 final_list = []
 
