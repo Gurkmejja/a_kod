@@ -20,7 +20,6 @@ l2 = []
 for item in l1:
     l2.append(str(item).strip("\\r'b"))
 
-
 l3 = [] # Lista för flygplatsnamn
 l3_1 = [] # lista för förkortningar
 
@@ -79,7 +78,6 @@ for items in l3:
     final_list.append((str(l3_1[counter]) + ", " + str(l3[counter])\
     + ", " + str(l_numbers[counter]) + ", " + str(l_numbers3[counter])))
     counter += 1
-
 
 def write_to_f(filen):
     with open(filen, "a") as filehandle:
